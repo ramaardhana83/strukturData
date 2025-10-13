@@ -226,8 +226,8 @@ int main()
         gotoxy(1,2); cout << "IMPLEMENTASI PENEMPATAN BARANG DI GUDANG (TOP: " << top << ")";
         gotoxy(1,3); cout << "1. PUSH DATA";
         gotoxy(1,4); cout << "2. POP DATA";
-        gotoxy(1,5); cout << "3. SPECIAL PUSH (Tambah di posisi tengah)";
-        gotoxy(1,6); cout << "4. SPECIAL POP (Hapus dari posisi tertentu)";
+        gotoxy(1,5); cout << "3. SPECIAL PUSH";
+        gotoxy(1,6); cout << "4. SPECIAL POP";
         gotoxy(1,7); cout << "5. EXIT";
         gotoxy(1,9); cout << "Input Pilihan Anda [1-5] : ";
         cin >> pil;
